@@ -1,0 +1,86 @@
+.mainHome{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.imgHome{
+    position: absolute;
+    width: 40%;
+    height: 90vh; 
+    bottom: 0;
+    right: 3%;
+}
+.imgHome .img{
+    position: absolute;
+    bottom: 0;
+    height: 110%;
+    width: 100%;
+}
+.textHome{
+   position: absolute;
+   color: white;
+   height: auto;
+   min-height: 30%;
+   max-height: 30%;
+   width: auto;
+   max-width: 60%;
+   left: 6%;
+   bottom: 10%;
+}
+
+.textHome .name{
+    text-align: left;
+    font-size: 100px;
+    font-family: "Montserrat", sans-serif;
+ }
+
+ .textHome .job{
+     font-size: 50px;
+     text-align: left;
+     font-family: "Montserrat", sans-serif;
+ }
+
+ @media only screen and (max-height: 800px){
+    .textHome .name{
+        font-size: 80px;
+    }
+    .textHome .job{
+        font-size: 40px;
+    }
+}
+
+ @media (max-width: 900px){
+     .textHome .name{
+         font-size: 60px;
+     }
+
+     .textHome .job{
+         font-size: 30px;
+     }
+ }
+
+ @media (max-width: 600px){  
+     .textHome{
+         margin-left: -3%;
+     } 
+     .imgHome{
+        margin-right: 4%;
+     } 
+     .imgHome .img{
+         width: 140%;
+     }
+    .textHome .name{
+         font-size: 30px;
+     }
+
+     .textHome .job{
+         font-size: 15px;
+     }
+ }
+
